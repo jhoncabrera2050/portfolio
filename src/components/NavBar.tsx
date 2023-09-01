@@ -19,17 +19,17 @@ const NavBar = () => {
 
   return (
     <Box
-      position='absolute'
+      position='fixed'
       w='100%'
-      maxW='850px'
+      maxW='100%'
     >
       <HStack
-        m={3}
-        py={3}
+        m={0}
+        py={5}
         px={8}
         bg={"#242424"}
         color={"#F1F1F1"}
-        borderRadius={12}
+        borderRadius={0}
         justify='space-between'
         alignItems='center'
         boxShadow={'md'}
