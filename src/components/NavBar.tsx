@@ -9,6 +9,8 @@ import {
   Link
 } from "@chakra-ui/react"
 import { Link as ReachLink, useLocation } from "react-router-dom"
+import { FaLinkedin, FaGithub, FaInstagram, FaMapMarkerAlt } from 'react-icons/fa';
+import { MdAlternateEmail } from 'react-icons/md'
 import { FaAsterisk } from "react-icons/fa"
 import { BiBorderBottom } from "react-icons/bi"
 
@@ -22,18 +24,21 @@ const NavBar = () => {
       position='fixed'
       w='100%'
       maxW='100%'
+      zIndex={1000}
     >
       <HStack
         m={0}
         py={5}
-        px={8}
+        px={20}
         bg={"#242424"}
         color={"#F1F1F1"}
         borderRadius={0}
         justify='space-between'
         alignItems='center'
         boxShadow={'md'}
+        gap={3}
       >
+
         <HStack
           gap={3}
         >
@@ -55,11 +60,38 @@ const NavBar = () => {
             ))
           }
         </HStack>
+        <HStack gap={20} >
+          <Link
+            className='link'
+            isExternal
+            href='https://www.linkedin.com/in/jhon-joseph-cabrera-ojanama-086439252/'
+          >
+            <Icon w={5} h={5} as={FaLinkedin} />
+          </Link>
+          <Link
+            className='link'
+            isExternal
+            href='https://github.com/jhoncabrera2050'
+          >
+            <Icon w={5} h={5} as={FaGithub} />
+          </Link>
+          <Link
+            className='link'
+            isExternal
+            href='mailto:jhoncabrera2050@gmail.com'
+          >
+            <Icon w={5} h={5} as={MdAlternateEmail} />
+          </Link>
+          <Link
+            className='link'
+            isExternal
+            href='https://www.instagram.com/sokarito.r'
+          >
+            <Icon w={5} h={5} as={FaInstagram} />
+          </Link>
+        </HStack>
         {/* <HStack justify='center' align='center'> */}
-        <Icon
-          mt={0.3}
-          as={FaAsterisk}
-        />
+
         {/* <Heading size='md'>Alex-Dev</Heading> */}
         {/* </HStack> */}
       </ HStack>

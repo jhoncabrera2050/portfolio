@@ -4,6 +4,7 @@ import IntroSection from '../components/IntroSection/IntroSection'
 import Profile from '../components/Profile/Profile'
 import Stack from '../components/Stack/Stack'
 import WorksGrid from '../components/WorksGrid/WorksGrid'
+import Slider from '../components/Slider/Slider'
 
 const Home = () => {
   return (
@@ -14,6 +15,7 @@ const Home = () => {
       pt={20}
       px={10}
     >
+      <Slider></Slider>
       <IntroSection />
       <Profile />
       <Stack />

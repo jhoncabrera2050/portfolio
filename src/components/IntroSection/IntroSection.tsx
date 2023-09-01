@@ -18,8 +18,11 @@ const IntroSection = () => {
         gap={4}
       >
         <Box>
-
-          <Heading size='lg'>Jhon Joseph Cabrera Ojanama</Heading>
+          <HStack>
+            <Heading size='lg'>Jhon Joseph Cabrera Ojanama</Heading>
+            <Text fontSize='lg'>( Bear )</Text>
+          </HStack>
+        
           <Text fontSize='md' color='blackAlpha.700'>Fronted/Backend Developer </Text>
           <HStack>
             <Text fontSize='sm' color='blackAlpha.500'><Icon w={3} h={3} as={FaMapMarkerAlt} /> Lima, Peru</Text>
@@ -27,36 +30,6 @@ const IntroSection = () => {
           </HStack>
         </Box>
       </Stack>
-      <VStack>
-        <Link
-          className='link'
-          isExternal
-          href='https://www.linkedin.com/in/jhon-joseph-cabrera-ojanama-086439252/'
-        >
-          <Icon w={5} h={5} as={FaLinkedin} />
-        </Link>
-        <Link
-          className='link'
-          isExternal
-          href='https://github.com/jhoncabrera2050'
-        >
-          <Icon w={5} h={5} as={FaGithub} />
-        </Link>
-        <Link
-          className='link'
-          isExternal
-          href='mailto:jhoncabrera2050@gmail.com'
-        >
-          <Icon w={5} h={5} as={MdAlternateEmail} />
-        </Link>
-        <Link
-          className='link'
-          isExternal
-          href='https://www.instagram.com/sokarito.r' 
-        >
-          <Icon w={5} h={5} as={FaInstagram} />
-        </Link>
-      </VStack>
     </Stack >
   )
 }
