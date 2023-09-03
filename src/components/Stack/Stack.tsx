@@ -12,7 +12,7 @@ const Stack = () => {
             cursor='grab'
             gap='2'
             className='stack'
-            bg='#242424' color="#F3F3E9">
+            bg='#b21e35' color="#F3F3E9">
             <Image
               alt={stack.alt}
               boxSize='20px'

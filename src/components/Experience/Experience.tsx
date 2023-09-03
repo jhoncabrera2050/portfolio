@@ -16,7 +16,7 @@ const Experience = () => {
     <Box mt={10}>
       <Heading size='lg'>Experience</Heading>
       <Stack
-        bg='#FFF'
+        bg='#b21e35'
         maxW={"350px"}
         borderWidth='1px'
         rounded='md'
@@ -38,7 +38,7 @@ const Experience = () => {
               Agencia Online JF
             </Text>
             <Text fontSize='15px'>
-              Junio. 2023 - Septiembre · 2023
+              Agosto. 2023 - Actualidad · 2023
             </Text>
           </Box>
           {/* <Collapse in={isOpen} animateOpacity>
@@ -57,7 +57,7 @@ const Experience = () => {
         </HStack>
       </Stack>
       <Stack
-        bg='#FFF'
+        bg='#b21e35'
         maxW={"350px"}
         borderWidth='1px'
         rounded='md'
@@ -98,7 +98,7 @@ const Experience = () => {
         </HStack>
       </Stack>
       <Stack
-        bg='#FFF'
+        bg='#b21e35'
         maxW={"350px"}
         borderWidth='1px'
         rounded='md'
@@ -115,7 +115,7 @@ const Experience = () => {
             alt="atento"
           />
           <Box>
-            <Text fontWeight='semibold'>Asesor de Servicio</Text>
+            <Text fontWeight='semibold'>Asesor Técnico</Text>
             <Text fontSize='15px'>
               Atento
             </Text>

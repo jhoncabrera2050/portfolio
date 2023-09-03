@@ -5,16 +5,13 @@ import "react-responsive-carousel/lib/styles/carousel.min.css";
 
 const Profile = () => {
   return (
-    <Box mt={5}>
+    <Box mt={5}  >
       <Carousel>
         <div>
-          <img src="imagen1.png" alt="Imagen 1" />
+          <img src="imagen1.jpg" alt="Imagen 1" />
         </div>
         <div>
-          <img src="imagen2.png" alt="Imagen 2" />
-        </div>
-        <div>
-          <img src="imagen3.png" alt="Imagen 3" />
+          <img src="imagen2.jpg" alt="Imagen 2" />
         </div>
       </Carousel>
     </Box>

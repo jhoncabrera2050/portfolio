@@ -20,10 +20,7 @@ const Home = () => {
       <Profile />
       <Stack />
       <Experience />
-      <Box mt={10}>
-        <Heading size='lg'>Proyectos Recientes</Heading>
-        <WorksGrid max={2} />
-      </Box>
+
     </Box >
   )
 }

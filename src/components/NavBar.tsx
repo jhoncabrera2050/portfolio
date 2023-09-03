@@ -30,7 +30,7 @@ const NavBar = () => {
         m={0}
         py={5}
         px={20}
-        bg={"#242424"}
+        bg={"#b21e35"}
         color={"#F1F1F1"}
         borderRadius={0}
         justify='space-between'

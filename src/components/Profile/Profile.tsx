@@ -6,7 +6,7 @@ const Profile = () => {
       mt={4}
     >
       <Text fontSize='17'>
-      I hola am a web developer with more than 1 year of programming experience. My main focus is developing highly scalable software by applying agile methodologies. In addition, I have skills in problem solving, project management and the ability to work in a team to ensure the successful delivery of each project.
+      !!! Hola, soy un desarrollador web con más de un año de experiencia en programación. Tengo el objetivo de crear software totalmente escalable por medio de metodologías ágiles. Soy una persona apasionada a los retos y la innovación, No tengas miedo en conocerme !!!
 
       </Text>
     </Box >
