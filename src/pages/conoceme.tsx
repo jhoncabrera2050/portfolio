@@ -5,8 +5,8 @@ import Profile from '../components/Profile/Profile'
 import Stack from '../components/Stack/Stack'
 import WorksGrid from '../components/WorksGrid/WorksGrid'
 import Slider from '../components/Slider/Slider'
-import Pogramacion2 from '../components/Programacion/Programacion'
-const Home = () => {
+
+const ConocemePage = () => {
   return (
     <Box
       mt='0px !important'
@@ -15,10 +15,15 @@ const Home = () => {
       pt={20}
       px={10}
     >
-      <Slider></Slider>
-      <Pogramacion2></Pogramacion2>
+      <br></br>
+      <IntroSection />
+      <br></br>
+      <Stack />
+      <br></br>
+      <Profile />
+      <Experience />
     </Box >
   )
 }
 
-export default Home
+export default ConocemePage

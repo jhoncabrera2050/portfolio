@@ -1,7 +1,7 @@
-import { Box, Heading, HStack, Icon, Image, Link, Stack, Text, VStack } from '@chakra-ui/react'
+import { Box, Heading, HStack, Icon, Image, Link, Stack, Text, VStack } from '@chakra-ui/react';
 import { FaLinkedin, FaGithub, FaInstagram, FaMapMarkerAlt } from 'react-icons/fa';
-import { MdAlternateEmail } from 'react-icons/md'
-import { BiCodeBlock } from 'react-icons/bi'
+import { MdAlternateEmail } from 'react-icons/md';
+import { BiCodeBlock } from 'react-icons/bi';
 
 const IntroSection = () => {
   return (
@@ -23,11 +23,19 @@ const IntroSection = () => {
             <Text fontSize='lg'>( Bear )</Text>
           </HStack>
         
-          <Text fontSize='md' color='blackAlpha.700'>Fronted/Backend Developer </Text>
+          <Text fontSize='md' color='blackAlpha.700'>Frontend/Backend Developer</Text>
         </Box>
       </Stack>
-    </Stack >
-  )
-}
+      <Box>
+        <Image
+          src="jhon3.jpg"
+          alt="Profile Image"
+          boxSize="150px" // Ajusta el tamaño de la imagen según tus preferencias
+          borderRadius="full" // Puedes aplicar bordes redondeados para dar estilo
+        />
+      </Box>
+    </Stack>
+  );
+};
 
-export default IntroSection
+export default IntroSection;

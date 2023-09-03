@@ -8,6 +8,7 @@ import SnippetDetail from './pages/snippetDetail/snippetDetail';
 import SnippetsPage from './pages/snippets';
 import WorkDetail from './pages/workDetail';
 import WorkPage from './pages/works';
+import ConocemePage from './pages/conoceme';
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
           element={<Home />}
         />
         <Route path='/works' element={<WorkPage />} />
+        <Route path='/conoceme' element={<ConocemePage />} />
         <Route path='/snippets' element={<SnippetsPage />} />
         <Route
           path="/snippets/:title"
