@@ -20,8 +20,6 @@ git checkout -B main
 git add -A
 git commit -m 'deploy'
 
-# if you are deploying to https://<USERNAME>.github.io
-# git push -f git@github.com:alexparco/alexparco.github.io.git main
 
 # if you are deploying to https://<USERNAME>.github.io/<REPO>
 git push -f git@github.com:jhoncabrera2050/portfolio.git main:gh-pages
